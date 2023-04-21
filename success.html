@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BV23TD');</script>
-  <!-- End Google Tag Manager -->
-  <!-- Hotjar Tracking Code for https://listen-n-read.com/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3461260,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
     <link
       rel="icon"
       type="image/png"
@@ -43,10 +25,6 @@
     />
   </head>
   <body class="bg-base-200 font-sans antialiased">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV23TD"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
     <section>
       <div class="min-h-screen flex flex-col justify-center items-center">
         <div class="max-w-4xl p-4">
@@ -65,13 +43,10 @@
             your reading experience more immersive, efficient and enjoyable
           </p>
           <div class="flex justify-center">
-            <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-
-            <stripe-buy-button
-              buy-button-id="buy_btn_1MzHQaL8ntVBtdXfUaNiL1eZ"
-              publishable-key="pk_live_51MrOhIL8ntVBtdXf9R4iPOcM3i8nnLHOXPl8BXKIM4BROiQcy8aGc27H1jzNtWF1jinO9EEgzXOsiXrkhouxoQj800YEMGv7Xp"
-            >
-            </stripe-buy-button>
+            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+            <stripe-pricing-table pricing-table-id="prctbl_1MzJMiL8ntVBtdXfXs2gfyzS"
+            publishable-key="pk_live_51MrOhIL8ntVBtdXf9R4iPOcM3i8nnLHOXPl8BXKIM4BROiQcy8aGc27H1jzNtWF1jinO9EEgzXOsiXrkhouxoQj800YEMGv7Xp">
+            </stripe-pricing-table>
         </div>
       </div>
     </section>
@@ -135,9 +110,14 @@
           save time and money by listening to an <i>unlimited</i> number of books - more for less than audibles $14.95 per month
         </p>
         <div class="flex justify-center">
-          <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-          <stripe-pricing-table pricing-table-id="prctbl_1MzJMiL8ntVBtdXfXs2gfyzS"
-          publishable-key="pk_live_51MrOhIL8ntVBtdXf9R4iPOcM3i8nnLHOXPl8BXKIM4BROiQcy8aGc27H1jzNtWF1jinO9EEgzXOsiXrkhouxoQj800YEMGv7Xp">
+          <script
+            async
+            src="https://js.stripe.com/v3/pricing-table.js"
+          ></script>
+          <stripe-pricing-table
+            pricing-table-id="prctbl_1Mz4PwL8ntVBtdXfsxYTEihr"
+            publishable-key="pk_live_51MrOhIL8ntVBtdXf9R4iPOcM3i8nnLHOXPl8BXKIM4BROiQcy8aGc27H1jzNtWF1jinO9EEgzXOsiXrkhouxoQj800YEMGv7Xp"
+          >
           </stripe-pricing-table>
         </div>
       </div>
